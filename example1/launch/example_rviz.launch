@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+    <node pkg="example1" type="example1_rviz_node" name="example1" output="screen" />
+    <node name="rviz" pkg="rviz" type="rviz" />
+    <!-- <node pkg="tf" type="static_transform_publisher" name="map_odom" args="0 0 0 0 0 0 map world 20" /> -->
+</launch>
